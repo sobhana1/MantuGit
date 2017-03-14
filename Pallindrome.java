@@ -2,7 +2,7 @@
 public class Pallindrome {
 public static void main(String[] args) {
 	int r,sum = 0,temp;
-	int n=454;
+	int n=467;
 	
 	temp=n;
 	while(n>0){
@@ -12,8 +12,8 @@ public static void main(String[] args) {
 	}
 	
 	if(temp==sum){
-		System.out.println("is a pallindrome");
-	}else System.out.println("not a pallindrome");
+		System.out.println("pallindrome");
+	}else System.out.println("not pallindrome");
 			
 }
 }
